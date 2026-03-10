@@ -17,7 +17,7 @@ These values drive Qiskit's impact for users and reinforce its overarching missi
 
 ## Background and Scope
 
-There is a tradition of foundational documents in developer communities (for example, [Debian Free Software Manifesto](https://www.debian.org/doc/manuals/project-history/manifesto.en.html) and [OpenStack’s Technical Vision](https://governance.openstack.org/tc/reference/technical-vision.html)) that help participants align around shared values and a common direction.
+There is a tradition of foundational documents in developer communities (for example, [Debian Free Software Manifesto](https://www.debian.org/doc/manuals/project-history/manifesto.en.html) and [OpenStack's Technical Vision](https://governance.openstack.org/tc/reference/technical-vision.html)) that help participants align around shared values and a common direction.
 In a similar spirit, this Qiskit Technical Vision defines the principles, commitments, and aspirations that currently guide Qiskit's development.
 
 Its purpose is to align contributors and stakeholders around a common direction, clarify what Qiskit stands for, and provide a foundation for transparent and principled growth without prescribing rigid rules or locking in current implementations. It is, therefore, a statement of intent — not a binding contract.
@@ -26,9 +26,9 @@ This is a living document; all changes are explicit, reasoned, and clearly expla
 Principles that are more foundational are expected to remain stable long-term.
 In contrast, aspects related to *Enablement* are more dynamic and may evolve more frequently as priorities shift.
 
-While this technical vision reflects IBM’s current priorities and informs decision-making within the Qiskit software stack, it does not diminish the value of community-led initiatives.
-Efforts from the broader quantum computing community, whether aligned with IBM’s roadmap or taking alternative approaches, are essential to advancing quantum technologies.
-This vision is not meant to restrict exploration but to provide context for Qiskit’s priorities, helping contributors and users understand how it fits within a broader, collaborative landscape.
+While this technical vision reflects IBM's current priorities and informs decision-making within the Qiskit software stack, it does not diminish the value of community-led initiatives.
+Efforts from the broader quantum computing community, whether aligned with IBM's roadmap or taking alternative approaches, are essential to advancing quantum technologies.
+This vision is not meant to restrict exploration but to provide context for Qiskit's priorities, helping contributors and users understand how it fits within a broader, collaborative landscape.
 
 ---
 
@@ -39,7 +39,7 @@ In increasing level of specificity, the foundational principles of Qiskit are: *
 
 ### Responsible Quantum commitments
 
-Qiskit subscribes to the [IBM's Responsible Quantum principles](https://www.ibm.com/quantum/blog/responsible-quantum), which in turn are based of other initiatives, such us [Open Quantum Institute's objectives](https://open-quantum-institute.cern/) and [World Economic Forum’s Quantum Computing Governance Principles](https://www.weforum.org/publications/quantum-computing-governance-principles/).
+Qiskit subscribes to the [IBM's Responsible Quantum principles](https://www.ibm.com/quantum/blog/responsible-quantum), which in turn are based of other initiatives, such us [Open Quantum Institute's objectives](https://open-quantum-institute.cern/) and [World Economic Forum's Quantum Computing Governance Principles](https://www.weforum.org/publications/quantum-computing-governance-principles/).
  
 Key commitments to Responsible Quantum include:
 
@@ -55,7 +55,7 @@ Key commitments to open innovation include:
 
 - **Open-source development of key components**: By adopting an open-source model with permissive licensing in the main components, Qiskit enables researchers, developers, and organizations to freely use, modify, and extend its tools. 
 - **Cultivating a rich ecosystem of extensions and integrations**: The essence of Qiskit is defined by what can be built with it. Tools developed on top of the stack will be key to achieving quantum advantage. Qiskit actively encourages and promotes non-IBM extensions, including support for non-IBM quantum hardware and architectures.
-- **Transparency in the communication**: Qiskit's open development model welcomes diverse opinions and feedback to shape its evolution. While final decisions align with IBM’s strategic interests as a company, IBM has a responsibility to clearly communicate the rationale behind them.
+- **Transparency in the communication**: Qiskit's open development model welcomes diverse opinions and feedback to shape its evolution. While final decisions align with IBM's strategic interests as a company, IBM has a responsibility to clearly communicate the rationale behind them.
 
 ### Interoperability commitments
 
@@ -65,7 +65,7 @@ Key commitments to interoperability include:
 
  - **Support a diverse quantum hardware landscape**: Qiskit is designed to support a wide range of quantum hardware platforms and services. This support may be driven by IBM, contributed by third parties, or developed collaboratively. Qiskit enables users to run their programs in various quantum providers, giving them the flexibility to choose the best available hardware for their needs without having to learn a new framework.
 - **Build bridges among frameworks, platforms, and architectures is crucial**: By supporting the exchange of open standards and formats like OpenQASM, Qiskit encourages developers to leverage the strengths of each tool or framework beyond Qiskit. In this way quantum programs can be easily shared, modified, and executed across different platforms.
-- **Fair competition**: While Qiskit follows IBM’s strategic direction, its open initiative nature allows for alternative efforts to take different paths. IBM remains committed to ensuring that its decisions do not actively hinder other initiatives or deliberately disable competitors, even when they build upon Qiskit’s services, design, or code.
+- **Fair competition**: While Qiskit follows IBM's strategic direction, its open initiative nature allows for alternative efforts to take different paths. IBM remains committed to ensuring that its decisions do not actively hinder other initiatives or deliberately disable competitors, even when they build upon Qiskit's services, design, or code.
 
 ---
 
@@ -134,7 +134,7 @@ Qiskit supports not only IBM products and services but also a wide ecosystem of 
 
 ## Limitations
 
-Qiskit's open, transparent, and extensible nature supports IBM’s mission to bring useful quantum computing to the world.
+Qiskit's open, transparent, and extensible nature supports IBM's mission to bring useful quantum computing to the world.
 As an IBM product, its development, governance, access, and distribution are subject to important constraints, such as:
 
  - **Jurisdictional compliance**: Like all products and services maintained by IBM, Qiskit is bound by the legal and regulatory frameworks of the jurisdictions in which IBM operates.
@@ -143,13 +143,13 @@ As an IBM product, its development, governance, access, and distribution are sub
  - **IBM contractual confidentiality**: Qiskit's development is constrained by IBM's contractual commitments.
    Agreements with customers, partners, and collaborators may influence priorities and direction, and certain details cannot be discussed publicly to respect confidentiality obligations.
 
- - **Strategic boundaries**: While Qiskit encourages broad community participation, its core direction is shaped by IBM’s strategic priorities.
+ - **Strategic boundaries**: While Qiskit encourages broad community participation, its core direction is shaped by IBM's strategic priorities.
    This may influence the scope or timing of certain features and the review process for external contributions.
 
  - **Hardware-Centric optimizations**: Although Qiskit supports multiple quantum backends, some advanced capabilities are optimized for IBM Quantum systems.
    Nonetheless, IBM actively encourages third parties to extend and adapt features for a wide range of hardware providers.
 
-These limitations reflect the practical realities of operating within a global, regulated, and commercially supported ecosystem and are balanced by Qiskit’s commitment to openness, interoperability, and transparent innovation.
+These limitations reflect the practical realities of operating within a global, regulated, and commercially supported ecosystem and are balanced by Qiskit's commitment to openness, interoperability, and transparent innovation.
 
 
 ## Conclusions
@@ -158,6 +158,6 @@ This technical vision outlines Qiskit's guiding principles and priorities as it 
 By grounding its development in responsibility, openness, and interoperability, and focusing on usability, stability, and performance, Qiskit aims to empower its users, community, and contributors.
 
 As quantum computing advances, Qiskit remains committed to enabling meaningful progress through collaboration, transparency, and extensibility.
-This vision is not static; it is intended to evolve with the community it serves and with IBM’s strategic view of the future of quantum technologies.
+This vision is not static; it is intended to evolve with the community it serves and with IBM's strategic view of the future of quantum technologies.
 
 The goal of making this document public is not only to provide a shared foundation, but also to clearly communicate current priorities and document when they change.
